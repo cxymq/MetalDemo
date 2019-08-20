@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		14E3C6B522F13F5E00C56AC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E3C6B422F13F5E00C56AC7 /* main.m */; };
+		14E3C6BD22F13F9200C56AC7 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E3C6BC22F13F9100C56AC7 /* Metal.framework */; };
+		14E3C6BF22F13FB200C56AC7 /* add.metal in Sources */ = {isa = PBXBuildFile; fileRef = 14E3C6BE22F13FB200C56AC7 /* add.metal */; };
+		14E3C6C222F1625C00C56AC7 /* MetalAdder.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E3C6C122F1625C00C56AC7 /* MetalAdder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,10 @@
 /* Begin PBXFileReference section */
 		14E3C6B122F13F5E00C56AC7 /* 1MetalCompulteBasic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 1MetalCompulteBasic; sourceTree = BUILT_PRODUCTS_DIR; };
 		14E3C6B422F13F5E00C56AC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14E3C6BC22F13F9100C56AC7 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		14E3C6BE22F13FB200C56AC7 /* add.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = add.metal; sourceTree = "<group>"; };
+		14E3C6C022F1625C00C56AC7 /* MetalAdder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MetalAdder.h; sourceTree = "<group>"; };
+		14E3C6C122F1625C00C56AC7 /* MetalAdder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetalAdder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14E3C6BD22F13F9200C56AC7 /* Metal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +51,7 @@
 			children = (
 				14E3C6B322F13F5E00C56AC7 /* 1MetalCompulteBasic */,
 				14E3C6B222F13F5E00C56AC7 /* Products */,
+				14E3C6BB22F13F9100C56AC7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +67,19 @@
 			isa = PBXGroup;
 			children = (
 				14E3C6B422F13F5E00C56AC7 /* main.m */,
+				14E3C6BE22F13FB200C56AC7 /* add.metal */,
+				14E3C6C022F1625C00C56AC7 /* MetalAdder.h */,
+				14E3C6C122F1625C00C56AC7 /* MetalAdder.m */,
 			);
 			path = 1MetalCompulteBasic;
+			sourceTree = "<group>";
+		};
+		14E3C6BB22F13F9100C56AC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14E3C6BC22F13F9100C56AC7 /* Metal.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14E3C6C222F1625C00C56AC7 /* MetalAdder.m in Sources */,
 				14E3C6B522F13F5E00C56AC7 /* main.m in Sources */,
+				14E3C6BF22F13FB200C56AC7 /* add.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

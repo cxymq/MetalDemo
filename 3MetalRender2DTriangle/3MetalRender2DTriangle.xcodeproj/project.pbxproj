@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14AE03692339F96700560AEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AE03682339F96700560AEC /* AppDelegate.m */; };
+		14AE036C2339F96700560AEC /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AE036B2339F96700560AEC /* GameViewController.m */; };
+		14AE036F2339F96700560AEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14AE036D2339F96700560AEC /* Main.storyboard */; };
+		14AE03722339F96700560AEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14AE03702339F96700560AEC /* LaunchScreen.storyboard */; };
+		14AE03752339F96700560AEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AE03742339F96700560AEC /* main.m */; };
+		14AE037E2339F96700560AEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AE037D2339F96700560AEC /* AppDelegate.m */; };
+		14AE03812339F96700560AEC /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AE03802339F96700560AEC /* GameViewController.m */; };
+		14AE03842339F96700560AEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14AE03822339F96700560AEC /* Main.storyboard */; };
+		14AE03872339F96700560AEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AE03862339F96700560AEC /* main.m */; };
+		14AE03902339F96700560AEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AE038F2339F96700560AEC /* AppDelegate.m */; };
+		14AE03932339F96700560AEC /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AE03922339F96700560AEC /* GameViewController.m */; };
+		14AE03962339F96700560AEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14AE03942339F96700560AEC /* Main.storyboard */; };
+		14AE03992339F96700560AEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AE03982339F96700560AEC /* main.m */; };
+		14AE039A2339F96700560AEC /* Renderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AE035C2339F96600560AEC /* Renderer.m */; };
+		14AE039B2339F96700560AEC /* Renderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AE035C2339F96600560AEC /* Renderer.m */; };
+		14AE039C2339F96700560AEC /* Renderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AE035C2339F96600560AEC /* Renderer.m */; };
+		14AE039D2339F96700560AEC /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 14AE035E2339F96600560AEC /* Shaders.metal */; };
+		14AE039E2339F96700560AEC /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 14AE035E2339F96600560AEC /* Shaders.metal */; };
+		14AE039F2339F96700560AEC /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 14AE035E2339F96600560AEC /* Shaders.metal */; };
+		14AE03A02339F96700560AEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14AE035F2339F96700560AEC /* Assets.xcassets */; };
+		14AE03A12339F96700560AEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14AE035F2339F96700560AEC /* Assets.xcassets */; };
+		14AE03A22339F96700560AEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14AE035F2339F96700560AEC /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14AE035B2339F96600560AEC /* Renderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Renderer.h; sourceTree = "<group>"; };
+		14AE035C2339F96600560AEC /* Renderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Renderer.m; sourceTree = "<group>"; };
+		14AE035D2339F96600560AEC /* ShaderTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaderTypes.h; sourceTree = "<group>"; };
+		14AE035E2339F96600560AEC /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		14AE035F2339F96700560AEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14AE03642339F96700560AEC /* 3MetalRender2DTriangle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3MetalRender2DTriangle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14AE03672339F96700560AEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14AE03682339F96700560AEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14AE036A2339F96700560AEC /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		14AE036B2339F96700560AEC /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		14AE036E2339F96700560AEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14AE03712339F96700560AEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14AE03732339F96700560AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14AE03742339F96700560AEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14AE037A2339F96700560AEC /* 3MetalRender2DTriangle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3MetalRender2DTriangle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14AE037C2339F96700560AEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14AE037D2339F96700560AEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14AE037F2339F96700560AEC /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		14AE03802339F96700560AEC /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		14AE03832339F96700560AEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14AE03852339F96700560AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14AE03862339F96700560AEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14AE038C2339F96700560AEC /* 3MetalRender2DTriangle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3MetalRender2DTriangle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14AE038E2339F96700560AEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14AE038F2339F96700560AEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14AE03912339F96700560AEC /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		14AE03922339F96700560AEC /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		14AE03952339F96700560AEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14AE03972339F96700560AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14AE03982339F96700560AEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14AE03612339F96700560AEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14AE03772339F96700560AEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14AE03892339F96700560AEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14AE03552339F96500560AEC = {
+			isa = PBXGroup;
+			children = (
+				14AE035A2339F96600560AEC /* 3MetalRender2DTriangle Shared */,
+				14AE03662339F96700560AEC /* 3MetalRender2DTriangle iOS */,
+				14AE037B2339F96700560AEC /* 3MetalRender2DTriangle tvOS */,
+				14AE038D2339F96700560AEC /* 3MetalRender2DTriangle macOS */,
+				14AE03652339F96700560AEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14AE035A2339F96600560AEC /* 3MetalRender2DTriangle Shared */ = {
+			isa = PBXGroup;
+			children = (
+				14AE035B2339F96600560AEC /* Renderer.h */,
+				14AE035C2339F96600560AEC /* Renderer.m */,
+				14AE035D2339F96600560AEC /* ShaderTypes.h */,
+				14AE035E2339F96600560AEC /* Shaders.metal */,
+				14AE035F2339F96700560AEC /* Assets.xcassets */,
+			);
+			path = "3MetalRender2DTriangle Shared";
+			sourceTree = "<group>";
+		};
+		14AE03652339F96700560AEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14AE03642339F96700560AEC /* 3MetalRender2DTriangle.app */,
+				14AE037A2339F96700560AEC /* 3MetalRender2DTriangle.app */,
+				14AE038C2339F96700560AEC /* 3MetalRender2DTriangle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14AE03662339F96700560AEC /* 3MetalRender2DTriangle iOS */ = {
+			isa = PBXGroup;
+			children = (
+				14AE03672339F96700560AEC /* AppDelegate.h */,
+				14AE03682339F96700560AEC /* AppDelegate.m */,
+				14AE036A2339F96700560AEC /* GameViewController.h */,
+				14AE036B2339F96700560AEC /* GameViewController.m */,
+				14AE036D2339F96700560AEC /* Main.storyboard */,
+				14AE03702339F96700560AEC /* LaunchScreen.storyboard */,
+				14AE03732339F96700560AEC /* Info.plist */,
+				14AE03742339F96700560AEC /* main.m */,
+			);
+			path = "3MetalRender2DTriangle iOS";
+			sourceTree = "<group>";
+		};
+		14AE037B2339F96700560AEC /* 3MetalRender2DTriangle tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				14AE037C2339F96700560AEC /* AppDelegate.h */,
+				14AE037D2339F96700560AEC /* AppDelegate.m */,
+				14AE037F2339F96700560AEC /* GameViewController.h */,
+				14AE03802339F96700560AEC /* GameViewController.m */,
+				14AE03822339F96700560AEC /* Main.storyboard */,
+				14AE03852339F96700560AEC /* Info.plist */,
+				14AE03862339F96700560AEC /* main.m */,
+			);
+			path = "3MetalRender2DTriangle tvOS";
+			sourceTree = "<group>";
+		};
+		14AE038D2339F96700560AEC /* 3MetalRender2DTriangle macOS */ = {
+			isa = PBXGroup;
+			children = (
+				14AE038E2339F96700560AEC /* AppDelegate.h */,
+				14AE038F2339F96700560AEC /* AppDelegate.m */,
+				14AE03912339F96700560AEC /* GameViewController.h */,
+				14AE03922339F96700560AEC /* GameViewController.m */,
+				14AE03942339F96700560AEC /* Main.storyboard */,
+				14AE03972339F96700560AEC /* Info.plist */,
+				14AE03982339F96700560AEC /* main.m */,
+			);
+			path = "3MetalRender2DTriangle macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14AE03632339F96700560AEC /* 3MetalRender2DTriangle iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14AE03A52339F96700560AEC /* Build configuration list for PBXNativeTarget "3MetalRender2DTriangle iOS" */;
+			buildPhases = (
+				14AE03602339F96700560AEC /* Sources */,
+				14AE03612339F96700560AEC /* Frameworks */,
+				14AE03622339F96700560AEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "3MetalRender2DTriangle iOS";
+			productName = "3MetalRender2DTriangle iOS";
+			productReference = 14AE03642339F96700560AEC /* 3MetalRender2DTriangle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14AE03792339F96700560AEC /* 3MetalRender2DTriangle tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14AE03A82339F96700560AEC /* Build configuration list for PBXNativeTarget "3MetalRender2DTriangle tvOS" */;
+			buildPhases = (
+				14AE03762339F96700560AEC /* Sources */,
+				14AE03772339F96700560AEC /* Frameworks */,
+				14AE03782339F96700560AEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "3MetalRender2DTriangle tvOS";
+			productName = "3MetalRender2DTriangle tvOS";
+			productReference = 14AE037A2339F96700560AEC /* 3MetalRender2DTriangle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14AE038B2339F96700560AEC /* 3MetalRender2DTriangle macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14AE03AB2339F96700560AEC /* Build configuration list for PBXNativeTarget "3MetalRender2DTriangle macOS" */;
+			buildPhases = (
+				14AE03882339F96700560AEC /* Sources */,
+				14AE03892339F96700560AEC /* Frameworks */,
+				14AE038A2339F96700560AEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "3MetalRender2DTriangle macOS";
+			productName = "3MetalRender2DTriangle macOS";
+			productReference = 14AE038C2339F96700560AEC /* 3MetalRender2DTriangle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14AE03562339F96500560AEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Qi Wang";
+				TargetAttributes = {
+					14AE03632339F96700560AEC = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					14AE03792339F96700560AEC = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					14AE038B2339F96700560AEC = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 14AE03592339F96500560AEC /* Build configuration list for PBXProject "3MetalRender2DTriangle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14AE03552339F96500560AEC;
+			productRefGroup = 14AE03652339F96700560AEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14AE03632339F96700560AEC /* 3MetalRender2DTriangle iOS */,
+				14AE03792339F96700560AEC /* 3MetalRender2DTriangle tvOS */,
+				14AE038B2339F96700560AEC /* 3MetalRender2DTriangle macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14AE03622339F96700560AEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14AE036F2339F96700560AEC /* Main.storyboard in Resources */,
+				14AE03A02339F96700560AEC /* Assets.xcassets in Resources */,
+				14AE03722339F96700560AEC /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14AE03782339F96700560AEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14AE03A12339F96700560AEC /* Assets.xcassets in Resources */,
+				14AE03842339F96700560AEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14AE038A2339F96700560AEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14AE03A22339F96700560AEC /* Assets.xcassets in Resources */,
+				14AE03962339F96700560AEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14AE03602339F96700560AEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14AE039A2339F96700560AEC /* Renderer.m in Sources */,
+				14AE036C2339F96700560AEC /* GameViewController.m in Sources */,
+				14AE03752339F96700560AEC /* main.m in Sources */,
+				14AE03692339F96700560AEC /* AppDelegate.m in Sources */,
+				14AE039D2339F96700560AEC /* Shaders.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14AE03762339F96700560AEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14AE039B2339F96700560AEC /* Renderer.m in Sources */,
+				14AE03812339F96700560AEC /* GameViewController.m in Sources */,
+				14AE03872339F96700560AEC /* main.m in Sources */,
+				14AE037E2339F96700560AEC /* AppDelegate.m in Sources */,
+				14AE039E2339F96700560AEC /* Shaders.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14AE03882339F96700560AEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14AE039C2339F96700560AEC /* Renderer.m in Sources */,
+				14AE03932339F96700560AEC /* GameViewController.m in Sources */,
+				14AE03992339F96700560AEC /* main.m in Sources */,
+				14AE03902339F96700560AEC /* AppDelegate.m in Sources */,
+				14AE039F2339F96700560AEC /* Shaders.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14AE036D2339F96700560AEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14AE036E2339F96700560AEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14AE03702339F96700560AEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14AE03712339F96700560AEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		14AE03822339F96700560AEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14AE03832339F96700560AEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14AE03942339F96700560AEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14AE03952339F96700560AEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14AE03A32339F96700560AEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		14AE03A42339F96700560AEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+			};
+			name = Release;
+		};
+		14AE03A62339F96700560AEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EJ429UWLN6;
+				INFOPLIST_FILE = "3MetalRender2DTriangle iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wq.-MetalRender2DTriangle";
+				PRODUCT_NAME = 3MetalRender2DTriangle;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14AE03A72339F96700560AEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EJ429UWLN6;
+				INFOPLIST_FILE = "3MetalRender2DTriangle iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wq.-MetalRender2DTriangle";
+				PRODUCT_NAME = 3MetalRender2DTriangle;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14AE03A92339F96700560AEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "tvOS LaunchImage";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EJ429UWLN6;
+				INFOPLIST_FILE = "3MetalRender2DTriangle tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wq.-MetalRender2DTriangle";
+				PRODUCT_NAME = 3MetalRender2DTriangle;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.4;
+			};
+			name = Debug;
+		};
+		14AE03AA2339F96700560AEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "tvOS LaunchImage";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EJ429UWLN6;
+				INFOPLIST_FILE = "3MetalRender2DTriangle tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wq.-MetalRender2DTriangle";
+				PRODUCT_NAME = 3MetalRender2DTriangle;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14AE03AC2339F96700560AEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EJ429UWLN6;
+				INFOPLIST_FILE = "3MetalRender2DTriangle macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wq.-MetalRender2DTriangle";
+				PRODUCT_NAME = 3MetalRender2DTriangle;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		14AE03AD2339F96700560AEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EJ429UWLN6;
+				INFOPLIST_FILE = "3MetalRender2DTriangle macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wq.-MetalRender2DTriangle";
+				PRODUCT_NAME = 3MetalRender2DTriangle;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14AE03592339F96500560AEC /* Build configuration list for PBXProject "3MetalRender2DTriangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14AE03A32339F96700560AEC /* Debug */,
+				14AE03A42339F96700560AEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14AE03A52339F96700560AEC /* Build configuration list for PBXNativeTarget "3MetalRender2DTriangle iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14AE03A62339F96700560AEC /* Debug */,
+				14AE03A72339F96700560AEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14AE03A82339F96700560AEC /* Build configuration list for PBXNativeTarget "3MetalRender2DTriangle tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14AE03A92339F96700560AEC /* Debug */,
+				14AE03AA2339F96700560AEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14AE03AB2339F96700560AEC /* Build configuration list for PBXNativeTarget "3MetalRender2DTriangle macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14AE03AC2339F96700560AEC /* Debug */,
+				14AE03AD2339F96700560AEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14AE03562339F96500560AEC /* Project object */;
+}

@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14076F1224B722B400C397D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14076F1124B722B400C397D3 /* AppDelegate.m */; };
+		14076F1524B722B400C397D3 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14076F1424B722B400C397D3 /* GameViewController.m */; };
+		14076F1824B722B400C397D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14076F1624B722B400C397D3 /* Main.storyboard */; };
+		14076F1B24B722B400C397D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14076F1924B722B400C397D3 /* LaunchScreen.storyboard */; };
+		14076F1E24B722B400C397D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14076F1D24B722B400C397D3 /* main.m */; };
+		14076F2724B722B400C397D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14076F2624B722B400C397D3 /* AppDelegate.m */; };
+		14076F2A24B722B400C397D3 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14076F2924B722B400C397D3 /* GameViewController.m */; };
+		14076F2D24B722B400C397D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14076F2B24B722B400C397D3 /* Main.storyboard */; };
+		14076F3024B722B400C397D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14076F2F24B722B400C397D3 /* main.m */; };
+		14076F3124B722B400C397D3 /* Renderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 14076F0524B722B200C397D3 /* Renderer.m */; };
+		14076F3224B722B400C397D3 /* Renderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 14076F0524B722B200C397D3 /* Renderer.m */; };
+		14076F3324B722B400C397D3 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 14076F0724B722B200C397D3 /* Shaders.metal */; };
+		14076F3424B722B400C397D3 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 14076F0724B722B200C397D3 /* Shaders.metal */; };
+		14076F3524B722B400C397D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14076F0824B722B400C397D3 /* Assets.xcassets */; };
+		14076F3624B722B400C397D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14076F0824B722B400C397D3 /* Assets.xcassets */; };
+		14076F4324B723C400C397D3 /* WQImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 14076F4224B723C400C397D3 /* WQImage.m */; };
+		1483FCF124CAC5C200E8FFC9 /* Image.tga in Resources */ = {isa = PBXBuildFile; fileRef = 1483FCF024CAC5C200E8FFC9 /* Image.tga */; };
+		1483FCF224CAC5C200E8FFC9 /* Image.tga in Resources */ = {isa = PBXBuildFile; fileRef = 1483FCF024CAC5C200E8FFC9 /* Image.tga */; };
+		1483FCF324CAC79800E8FFC9 /* WQImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 14076F4224B723C400C397D3 /* WQImage.m */; };
+		1483FCF624CAC7AF00E8FFC9 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1483FCF524CAC7AF00E8FFC9 /* MetalKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14076F0424B722B200C397D3 /* Renderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Renderer.h; sourceTree = "<group>"; };
+		14076F0524B722B200C397D3 /* Renderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Renderer.m; sourceTree = "<group>"; };
+		14076F0624B722B200C397D3 /* ShaderTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaderTypes.h; sourceTree = "<group>"; };
+		14076F0724B722B200C397D3 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		14076F0824B722B400C397D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14076F0D24B722B400C397D3 /* 4CreateTetures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 4CreateTetures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14076F1024B722B400C397D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14076F1124B722B400C397D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14076F1324B722B400C397D3 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		14076F1424B722B400C397D3 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		14076F1724B722B400C397D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14076F1A24B722B400C397D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14076F1C24B722B400C397D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14076F1D24B722B400C397D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14076F2324B722B400C397D3 /* 4CreateTetures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 4CreateTetures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14076F2524B722B400C397D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14076F2624B722B400C397D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14076F2824B722B400C397D3 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		14076F2924B722B400C397D3 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		14076F2C24B722B400C397D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14076F2E24B722B400C397D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14076F2F24B722B400C397D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14076F4124B723C400C397D3 /* WQImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WQImage.h; sourceTree = "<group>"; };
+		14076F4224B723C400C397D3 /* WQImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WQImage.m; sourceTree = "<group>"; };
+		1483FCF024CAC5C200E8FFC9 /* Image.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = Image.tga; sourceTree = "<group>"; };
+		1483FCF524CAC7AF00E8FFC9 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14076F0A24B722B400C397D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14076F2024B722B400C397D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1483FCF624CAC7AF00E8FFC9 /* MetalKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14076EFE24B722B200C397D3 = {
+			isa = PBXGroup;
+			children = (
+				14076F0324B722B200C397D3 /* 4CreateTetures Shared */,
+				14076F0F24B722B400C397D3 /* 4CreateTetures iOS */,
+				14076F2424B722B400C397D3 /* 4CreateTetures macOS */,
+				14076F0E24B722B400C397D3 /* Products */,
+				1483FCF424CAC7AE00E8FFC9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		14076F0324B722B200C397D3 /* 4CreateTetures Shared */ = {
+			isa = PBXGroup;
+			children = (
+				1483FCF024CAC5C200E8FFC9 /* Image.tga */,
+				14076F0424B722B200C397D3 /* Renderer.h */,
+				14076F0524B722B200C397D3 /* Renderer.m */,
+				14076F4124B723C400C397D3 /* WQImage.h */,
+				14076F4224B723C400C397D3 /* WQImage.m */,
+				14076F0624B722B200C397D3 /* ShaderTypes.h */,
+				14076F0724B722B200C397D3 /* Shaders.metal */,
+				14076F0824B722B400C397D3 /* Assets.xcassets */,
+			);
+			path = "4CreateTetures Shared";
+			sourceTree = "<group>";
+		};
+		14076F0E24B722B400C397D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14076F0D24B722B400C397D3 /* 4CreateTetures.app */,
+				14076F2324B722B400C397D3 /* 4CreateTetures.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14076F0F24B722B400C397D3 /* 4CreateTetures iOS */ = {
+			isa = PBXGroup;
+			children = (
+				14076F1024B722B400C397D3 /* AppDelegate.h */,
+				14076F1124B722B400C397D3 /* AppDelegate.m */,
+				14076F1324B722B400C397D3 /* GameViewController.h */,
+				14076F1424B722B400C397D3 /* GameViewController.m */,
+				14076F1624B722B400C397D3 /* Main.storyboard */,
+				14076F1924B722B400C397D3 /* LaunchScreen.storyboard */,
+				14076F1C24B722B400C397D3 /* Info.plist */,
+				14076F1D24B722B400C397D3 /* main.m */,
+			);
+			path = "4CreateTetures iOS";
+			sourceTree = "<group>";
+		};
+		14076F2424B722B400C397D3 /* 4CreateTetures macOS */ = {
+			isa = PBXGroup;
+			children = (
+				14076F2524B722B400C397D3 /* AppDelegate.h */,
+				14076F2624B722B400C397D3 /* AppDelegate.m */,
+				14076F2824B722B400C397D3 /* GameViewController.h */,
+				14076F2924B722B400C397D3 /* GameViewController.m */,
+				14076F2B24B722B400C397D3 /* Main.storyboard */,
+				14076F2E24B722B400C397D3 /* Info.plist */,
+				14076F2F24B722B400C397D3 /* main.m */,
+			);
+			path = "4CreateTetures macOS";
+			sourceTree = "<group>";
+		};
+		1483FCF424CAC7AE00E8FFC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1483FCF524CAC7AF00E8FFC9 /* MetalKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14076F0C24B722B400C397D3 /* 4CreateTetures iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14076F3924B722B400C397D3 /* Build configuration list for PBXNativeTarget "4CreateTetures iOS" */;
+			buildPhases = (
+				14076F0924B722B400C397D3 /* Sources */,
+				14076F0A24B722B400C397D3 /* Frameworks */,
+				14076F0B24B722B400C397D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "4CreateTetures iOS";
+			productName = "4CreateTetures iOS";
+			productReference = 14076F0D24B722B400C397D3 /* 4CreateTetures.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14076F2224B722B400C397D3 /* 4CreateTetures macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14076F3C24B722B400C397D3 /* Build configuration list for PBXNativeTarget "4CreateTetures macOS" */;
+			buildPhases = (
+				14076F1F24B722B400C397D3 /* Sources */,
+				14076F2024B722B400C397D3 /* Frameworks */,
+				14076F2124B722B400C397D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "4CreateTetures macOS";
+			productName = "4CreateTetures macOS";
+			productReference = 14076F2324B722B400C397D3 /* 4CreateTetures.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14076EFF24B722B200C397D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Qi Wang";
+				TargetAttributes = {
+					14076F0C24B722B400C397D3 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					14076F2224B722B400C397D3 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 14076F0224B722B200C397D3 /* Build configuration list for PBXProject "4CreateTetures" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14076EFE24B722B200C397D3;
+			productRefGroup = 14076F0E24B722B400C397D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14076F0C24B722B400C397D3 /* 4CreateTetures iOS */,
+				14076F2224B722B400C397D3 /* 4CreateTetures macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14076F0B24B722B400C397D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14076F1824B722B400C397D3 /* Main.storyboard in Resources */,
+				14076F3524B722B400C397D3 /* Assets.xcassets in Resources */,
+				1483FCF124CAC5C200E8FFC9 /* Image.tga in Resources */,
+				14076F1B24B722B400C397D3 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14076F2124B722B400C397D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1483FCF224CAC5C200E8FFC9 /* Image.tga in Resources */,
+				14076F3624B722B400C397D3 /* Assets.xcassets in Resources */,
+				14076F2D24B722B400C397D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14076F0924B722B400C397D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14076F3124B722B400C397D3 /* Renderer.m in Sources */,
+				14076F1524B722B400C397D3 /* GameViewController.m in Sources */,
+				14076F1E24B722B400C397D3 /* main.m in Sources */,
+				14076F4324B723C400C397D3 /* WQImage.m in Sources */,
+				14076F1224B722B400C397D3 /* AppDelegate.m in Sources */,
+				14076F3324B722B400C397D3 /* Shaders.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14076F1F24B722B400C397D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1483FCF324CAC79800E8FFC9 /* WQImage.m in Sources */,
+				14076F3224B722B400C397D3 /* Renderer.m in Sources */,
+				14076F2A24B722B400C397D3 /* GameViewController.m in Sources */,
+				14076F3024B722B400C397D3 /* main.m in Sources */,
+				14076F2724B722B400C397D3 /* AppDelegate.m in Sources */,
+				14076F3424B722B400C397D3 /* Shaders.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14076F1624B722B400C397D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14076F1724B722B400C397D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14076F1924B722B400C397D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14076F1A24B722B400C397D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		14076F2B24B722B400C397D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14076F2C24B722B400C397D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14076F3724B722B400C397D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		14076F3824B722B400C397D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+			};
+			name = Release;
+		};
+		14076F3A24B722B400C397D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EJ429UWLN6;
+				INFOPLIST_FILE = "4CreateTetures iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wq.-CreateTetures";
+				PRODUCT_NAME = 4CreateTetures;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s";
+			};
+			name = Debug;
+		};
+		14076F3B24B722B400C397D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EJ429UWLN6;
+				INFOPLIST_FILE = "4CreateTetures iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wq.-CreateTetures";
+				PRODUCT_NAME = 4CreateTetures;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14076F3D24B722B400C397D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EJ429UWLN6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "4CreateTetures macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wq.-CreateTetures";
+				PRODUCT_NAME = 4CreateTetures;
+				SDKROOT = macosx;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Debug;
+		};
+		14076F3E24B722B400C397D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EJ429UWLN6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "4CreateTetures macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wq.-CreateTetures";
+				PRODUCT_NAME = 4CreateTetures;
+				SDKROOT = macosx;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14076F0224B722B200C397D3 /* Build configuration list for PBXProject "4CreateTetures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14076F3724B722B400C397D3 /* Debug */,
+				14076F3824B722B400C397D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14076F3924B722B400C397D3 /* Build configuration list for PBXNativeTarget "4CreateTetures iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14076F3A24B722B400C397D3 /* Debug */,
+				14076F3B24B722B400C397D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14076F3C24B722B400C397D3 /* Build configuration list for PBXNativeTarget "4CreateTetures macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14076F3D24B722B400C397D3 /* Debug */,
+				14076F3E24B722B400C397D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14076EFF24B722B200C397D3 /* Project object */;
+}

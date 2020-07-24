@@ -7,6 +7,8 @@ Metal示例的集合
 
 3.使用Metal绘制2D图形(target选择mas os)
 
+4.将 tga 格式的图片绘制到视图上
+
 -----------------------------------------------------------
 
 [个人博客](https://blog.csdn.net/Crazy_SunShine)
